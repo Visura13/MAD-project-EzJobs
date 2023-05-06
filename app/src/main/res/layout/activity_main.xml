@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".Activities.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnViewJobs"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="@string/btn_view_job_txt"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnPostJob"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/btn_post_job_txt"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"/>
+
+    <TextView
+        android:id="@+id/adArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:text="@string/tv_ad_area"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/light_gray"/>
+
+</LinearLayout>

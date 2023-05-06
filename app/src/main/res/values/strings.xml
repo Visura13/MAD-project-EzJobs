@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EzJobs</string>
+    <string name="btn_view_job_txt">View all job vacancies</string>
+    <string name="btn_post_job_txt">Post a job vacancy</string>
+    <string name="tv_ad_area">Advertisement Area</string>
+    <string name="btn_update">update</string>
+    <string name="btn_delete">delete</string>
+    <string name="tv_loading">Loading...</string>
+    <string name="tv_title">Title</string>
+    <string name="tv_description">Description</string>
+    <string name="tv_deadline">Deadline</string>
+    <string name="tv_post_job_h1">About the job</string>
+    <string name="tv_job_sector">Job Sector</string>
+    <string name="tv_job_title">Job Title</string>
+    <string name="tv_job_description">Job Description</string>
+    <string name="tv_job_deadline">Application Deadline</string>
+    <string name="tv_date_order">DD-MM-YYYY</string>
+    <string name="btn_post">post ad</string>
+    <string name="btn_update_ad">Update Ad</string>
+    <string name="tv_sector">Sector</string>
+    <string name="rBtn_pvt">Private</string>
+    <string name="rBtn_gov">Government</string>
+</resources>
