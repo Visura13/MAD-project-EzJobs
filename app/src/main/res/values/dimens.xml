@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="reg">25sp</dimen>
+    <dimen name="regwi">375dp</dimen>
+    <dimen name="registerwi">300dp</dimen>
+    <dimen name="txt14">20sp</dimen>
+    <dimen name="txt18">24sp</dimen>
+    <dimen name="txt">40sp</dimen>
+    <dimen name="txt30">30sp</dimen>
+    <dimen name="txt23">23sp</dimen>
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/davee"
+    tools:context=".EmpProfile"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-14dp">
+
+    <TextView
+        android:id="@+id/profTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="7dp"
+        android:text="Employer Profile"
+        android:textSize="@dimen/txt14"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/profImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/profImg"
+        android:layout_width="89dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/dp"
+        app:layout_constraintBottom_toTopOf="@+id/profUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="119dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="292dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/profTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/profEmail"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:width="@dimen/registerwi"
+        android:ems="10"
+        android:hint="@string/cEmail"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/profPhoneNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/profPhoneNo"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:width="@dimen/registerwi"
+        android:ems="10"
+        android:hint="@string/cPhoneNo"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/profWorksAt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/profAddress"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:width="@dimen/registerwi"
+        android:ems="10"
+        android:hint="@string/cAddress"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/editProfBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/profWorksAt"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/cWorksAt"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/profAddress"
+        app:layout_constraintEnd_toStartOf="@+id/profWorkPosition"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/profWorkPosition"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/cWorkPost"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/profAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profPhoneNo" />
+
+    <EditText
+        android:id="@+id/profUsername"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:width="@dimen/registerwi"
+        android:ems="10"
+        android:hint="@string/cUsername"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/profEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/editProfBtn"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toTopOf="@+id/deleteProfBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/deleteProfBtn"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/lightred"
+        android:text="@string/delete"
+        app:layout_constraintBottom_toTopOf="@+id/backBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backBtn"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="180dp"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        android:src="?attr/actionModeCloseDrawable"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/backTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/back"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

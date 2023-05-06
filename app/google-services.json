@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50567295657",
+    "project_id": "ezjobs-ff900",
+    "storage_bucket": "ezjobs-ff900.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50567295657:android:1e0be7f447de5f8a276fb8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50567295657-nqik0r6ftcg2ksdrqh7gi51cj4ksgm7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWV4R4tvGB3O0yaDXZm-NBFIF-HHzMC2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50567295657-nqik0r6ftcg2ksdrqh7gi51cj4ksgm7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

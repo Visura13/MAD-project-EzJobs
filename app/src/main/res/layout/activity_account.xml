@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/davee"
+    tools:context=".Account"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="44dp">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#6E7DD5"
+        android:text="@string/btnmyads"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/myProfileBtn"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6E7DD5"
+        android:text="@string/btnprofile"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6E7DD5"
+        android:text="@string/btnfaq"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#6E7DD5"
+        android:text="@string/btnabout"
+        app:layout_constraintBottom_toTopOf="@+id/logOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6E7DD5"
+        android:text="@string/btnmem"
+        app:layout_constraintBottom_toTopOf="@+id/myProfileBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/accoun"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt30"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="132dp"
+        android:backgroundTint="#CC3838"
+        android:text="@string/btnlogout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="69dp"
+        android:layout_height="48dp"
+        android:src="@drawable/dp"
+        app:layout_constraintBottom_toTopOf="@+id/logOutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="134dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

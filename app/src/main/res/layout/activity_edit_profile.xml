@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/davee"
+    tools:context=".EditProfile"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-29dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="111dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="300dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/editProfTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="88dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/dp"
+        app:layout_constraintBottom_toTopOf="@+id/editProfUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editProfUsername"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/cUsername"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/editProfEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editProfEmail"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/cEmail"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/editProfPhoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editProfAddress"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/cAddress"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/editProfWorksAt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editProfWorksAt"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/cWorksAt"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/editProfWorkPosition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editProfWorkPosition"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="@string/cWorkPost"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/pwChange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editProfPhoneNumber"
+        android:layout_width="@dimen/registerwi"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/cPhoneNo"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/txt14"
+        app:layout_constraintBottom_toTopOf="@+id/editProfAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/saveChangesBtn"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editProfTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/editprofile"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt18"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/pwChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="27dp"
+        android:text="@string/change"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/saveChangesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

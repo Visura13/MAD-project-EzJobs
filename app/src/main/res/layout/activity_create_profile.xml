@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/davee"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="44dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="101dp"
+        android:layout_height="103dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="69dp"
+        app:layout_constraintBottom_toTopOf="@+id/cUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/createProfileTitle"
+        android:layout_width="270dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="71dp"
+        android:text="@string/createProfile"
+        android:textAlignment="center"
+        android:textColor="@color/register"
+        android:textSize="@dimen/reg"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/cUsername"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/cUsername"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createProfileTitle" />
+
+    <EditText
+        android:id="@+id/cEmail"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/cEmail"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cUsername" />
+
+    <EditText
+        android:id="@+id/cPhoneNo"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/cPhoneNo"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cEmail" />
+
+    <EditText
+        android:id="@+id/cAddress"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/cAddress"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cPhoneNo" />
+
+    <EditText
+        android:id="@+id/cWorksAt"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/cWorksAt"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cAddress" />
+
+    <EditText
+        android:id="@+id/cWorkPost"
+        android:layout_width="379dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/cWorkPost"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cWorksAt" />
+
+    <Button
+        android:id="@+id/createProfBtn"
+        android:layout_width="166dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/createProfBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cWorkPost"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
