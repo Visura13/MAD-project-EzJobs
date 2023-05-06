@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">projecPhase1</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="rpassword">Re-Type Password</string>
+    <string name="dob">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="loginuser">Enter Username</string>
+    <string name="loginPassword">Enter Password</string>
+    <string name="cpEmail">Enter Email Address</string>
+    <string name="pwcode">Code</string>
+    <string name="newPassword">Enter New Password</string>
+    <string name="retypenewpw">Re-Type New Password</string>
+    <string name="age">Age</string>
+    <string name="nic">NIC</string>
+    <string name="Unemployee_username">Unemployee username</string>
+
+
+</resources>
