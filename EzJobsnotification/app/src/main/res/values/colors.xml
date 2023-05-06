@@ -9,5 +9,8 @@
     <color name="matte_black">#28282B</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_gray">#D3D3D3</color>
-    <color name="lavender">#Bf94E4</color>
+    <color name="lavender2">#Bf94E4</color>
+    <color name="violet">#7F00FF</color>
+    <color name="lavender">#9932CC</color>
+    <color name="onyx">#353935</color>
 </resources>

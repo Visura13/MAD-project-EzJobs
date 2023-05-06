@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="20dp"
+    android:layout_margin="10dp"
     tools:context=".AddNotificationDetailsActivity">
 
     <TextView
@@ -14,11 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:padding="15dp"
         android:textSize="20sp"
         android:background="#9932CC"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Subscribe for notification service" />
 
     <EditText
@@ -58,9 +58,11 @@
 
     <Button
         android:id="@+id/btnPay"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
         android:text="pay" />
 
 
