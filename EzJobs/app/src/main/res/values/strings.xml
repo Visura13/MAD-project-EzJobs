@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EzJobs</string>
+    <string name="membership_title">Our Memberships</string>
+    <string name="pkg_member">Member</string>
+    <string name="pkg_v_member">Verified Member</string>
+    <string name="pkg_auth">Auth Agent</string>
+    <string name="mem_description">Buy a Business Premium Membership to not only get a special badge but also a higher ad limit and other benefits</string>
+    <string name="mem_price">Pay Rs.1000.00 monthly to activate the service</string>
+    <string name="ad_area">Advertisement Area</string>
+    <string name="pay">pay now</string>
+    <string name="auth_description">Authorized employers get this exclusive badge that guarantees employees that they will get authentic service from you.</string>
+    <string name="auth_price">Pay Rs.5000.00 monthly to activate the service</string>
+    <string name="v_mem_description">Verify your details with us to get this coveted badge that indicates to employees that you are trustworthy and it is safe to transact with you.</string>
+    <string name="v_mem_price">Pay Rs.3000.00 monthly to activate the service</string>
+</resources>

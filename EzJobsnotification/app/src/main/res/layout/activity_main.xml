@@ -24,11 +24,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:padding="20dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Subscribe to our sms and notification service and
+        android:text="Select job category and location your looking for and subscribe to our sms and notification service to
 get notified when new jobs are posted."
+        android:background="@color/light_gray"
+        android:textSize="20sp"
+        android:textColor="@color/matte_black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Pay Rs.100.00 monthly to active this service"
         android:background="@color/light_gray"
         android:textSize="20sp"
         android:textColor="@color/matte_black"

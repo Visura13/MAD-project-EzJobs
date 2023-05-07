@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "721241060072",
+    "project_id": "ezjobs-ae83a",
+    "storage_bucket": "ezjobs-ae83a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721241060072:android:1e711b19d1f12601c90f5d",
+        "android_client_info": {
+          "package_name": "com.example.ezjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721241060072-n4eg79v50inhuh2mh0cghmdba4cku4a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkHEEBgin_CHZlVrVtjXdCSSirwOfEtuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721241060072-n4eg79v50inhuh2mh0cghmdba4cku4a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

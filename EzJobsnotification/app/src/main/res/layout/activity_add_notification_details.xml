@@ -63,7 +63,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:padding="10dp"
-        android:text="pay" />
+        android:text="save" />
 
 
 </LinearLayout>
