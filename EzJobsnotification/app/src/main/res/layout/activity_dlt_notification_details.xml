@@ -16,7 +16,7 @@
         android:layout_marginTop="50dp"
         android:padding="15dp"
         android:textSize="20sp"
-        android:hint="phone Number"
+        android:hint="@string/phn_number"
         />
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:padding="10dp"
-        android:text="confirm delete" />
+        android:text="@string/confirm_dlt" />
 
     <TextView
         android:id="@+id/adArea"
@@ -36,7 +36,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="10dp"
-        android:text="Advertisement Area"
+        android:text="@string/ad_area"
         android:gravity="center"
         android:textAlignment="center"
         android:background="@color/light_gray"/>

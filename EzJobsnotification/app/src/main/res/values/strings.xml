@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">EzJobs-notification</string>
+    <string name="app_name">EzJobs</string>
+    <string name="sms_title">SMS And Notification Service</string>
+    <string name="sms_description">Select job category and location your looking for and subscribe to our sms and notification service to
+get notified when new jobs are posted.</string>
+    <string name="sms_price">Pay Rs.100.00 monthly to active this service</string>
+    <string name="sub">subscribe</string>
+    <string name="sub_details">subscription details</string>
+    <string name="save_sms_title">Subscribe for notification service</string>
+    <string name="phn_number">Phone Number</string>
+    <string name="j_category">Job Category</string>
+    <string name="j_location">Job Location</string>
+    <string name="save">save</string>
+    <string name="confirm_dlt">confirm delete</string>
+    <string name="ad_area">Advertisement Area</string>
+    <string name="enter">enter</string>
+    <string name="phn">Phone</string>
+    <string name="category">Category</string>
+    <string name="location">Location</string>
+    <string name="update_sub">update subscription details</string>
+    <string name="delete_sub">delete subscription</string>
+    <string name="update">update</string>
+    <string name="update_sms_title">Edit sms service details </string>
 </resources>

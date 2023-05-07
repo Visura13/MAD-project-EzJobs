@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="SMS And Notification Service"
+        android:text="@string/sms_title"
         android:textColor="@color/matte_black"
         android:textSize="28sp"
         />
@@ -29,8 +29,7 @@
         android:padding="20dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Select job category and location your looking for and subscribe to our sms and notification service to
-get notified when new jobs are posted."
+        android:text="@string/sms_description"
         android:background="@color/light_gray"
         android:textSize="20sp"
         android:textColor="@color/matte_black"
@@ -44,7 +43,7 @@ get notified when new jobs are posted."
         android:layout_marginEnd="10dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Pay Rs.100.00 monthly to active this service"
+        android:text="@string/sms_price"
         android:background="@color/light_gray"
         android:textSize="20sp"
         android:textColor="@color/matte_black"
@@ -57,7 +56,7 @@ get notified when new jobs are posted."
         android:layout_gravity="center"
         android:padding="20dp"
         android:layout_marginTop="40dp"
-        android:text="subscribe"
+        android:text="@string/sub"
         />
 
     <Button
@@ -67,6 +66,6 @@ get notified when new jobs are posted."
         android:layout_gravity="center"
         android:padding="20dp"
         android:layout_marginTop="40dp"
-        android:text="subscription details"
+        android:text="@string/sub_details"
         />
 </LinearLayout>

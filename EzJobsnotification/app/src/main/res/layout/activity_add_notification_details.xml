@@ -19,7 +19,7 @@
         android:textSize="20sp"
         android:background="#9932CC"
         android:textColor="@color/white"
-        android:text="Subscribe for notification service" />
+        android:text="@string/save_sms_title" />
 
     <EditText
         android:id="@+id/phnnumber"
@@ -29,7 +29,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="20dp"
         android:padding="15dp"
-        android:hint="Phone Number"
+        android:hint="@string/phn_number"
         />
 
     <EditText
@@ -40,7 +40,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="20dp"
         android:padding="15dp"
-        android:hint="Job Category"
+        android:hint="@string/j_category"
         />
 
     <EditText
@@ -51,7 +51,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="20dp"
         android:padding="15dp"
-        android:hint="Job Location"
+        android:hint="@string/j_location"
         />
 
 
@@ -63,7 +63,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:padding="10dp"
-        android:text="save" />
+        android:text="@string/save" />
 
 
 </LinearLayout>

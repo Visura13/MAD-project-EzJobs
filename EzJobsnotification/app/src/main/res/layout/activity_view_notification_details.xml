@@ -16,7 +16,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="30dp"
         android:padding="15dp"
-        android:hint="phone Number"
+        android:hint="@string/phn_number"
         />
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:layout_gravity="center"
-        android:text="enter" />
+        android:text="@string/enter" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
             android:padding="15dp"
             android:textColor="@color/onyx"
             android:textSize="16sp"
-            android:text="Phone"
+            android:text="@string/phn"
             />
 
         <TextView
@@ -70,7 +70,7 @@
             android:padding="15dp"
             android:textColor="@color/onyx"
             android:textSize="16sp"
-            android:text="Category"
+            android:text="@string/category"
             />
 
         <TextView
@@ -99,7 +99,7 @@
             android:padding="15dp"
             android:textColor="@color/onyx"
             android:textSize="16sp"
-            android:text="Location"
+            android:text="@string/location"
             />
 
         <TextView
@@ -127,7 +127,7 @@
             android:layout_height="70dp"
             android:layout_margin="20dp"
             android:textSize="12sp"
-            android:text="update subscription details" />
+            android:text="@string/update_sub" />
 
         <Button
             android:id="@+id/btnDelete"
@@ -135,7 +135,7 @@
             android:layout_height="70dp"
             android:layout_margin="20dp"
             android:textSize="12sp"
-            android:text="delete subscription" />
+            android:text="@string/delete_sub" />
 
     </LinearLayout>
 
